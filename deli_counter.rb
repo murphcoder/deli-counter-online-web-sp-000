@@ -8,6 +8,7 @@ def line(customers)
     count = 1
     while customers.count >= count do
       print " #{count}. #{customers[count - 1]}"
+      count += 1
     end
   end
 end
