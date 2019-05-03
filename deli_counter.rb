@@ -6,6 +6,9 @@ def line(customers)
   else
     status = "The line is currently:"
     customers.each_with_index |name, place| do
-      status << " "
+      status << " #{place + 1}. #{name}"
+    end
+    puts status
+  end
 end
 
