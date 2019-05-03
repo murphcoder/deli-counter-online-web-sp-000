@@ -14,4 +14,5 @@ end
 
 def take_a_number(customers, name)
   customers << name
-  puts "Welcome, #{name}. You are number #{"
+  puts "Welcome, #{name}. You are number #{customers.find_index(name)} in line."
+  
