@@ -21,4 +21,7 @@ def now_serving(customers)
   if customers.count == 0
     puts "There is nobody waiting to be served!"
   else
-    
+    puts "Currently serving #{customers.shift}."
+  end
+end
+
